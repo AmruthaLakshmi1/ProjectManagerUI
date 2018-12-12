@@ -31,7 +31,7 @@ describe('AddprojectComponent', () => {
     expect(component).toBeTruthy();
   });
   it('Add a project', () => {
-    const item:Project = {ProjectId:123,ProjectName:'Testtask',PStartDate:new Date(2014,4,4) ,PEndDate:new Date(2014,4,4),PPriority:1,ManagerId:1,Nooftasks:1,completed:1,Pstatus:true}
+    const item:Project = {Manager:"Manager",ProjectId:123,ProjectName:'Testtask',PStartDate:new Date(2014,4,4) ,PEndDate:new Date(2014,4,4),PPriority:1,ManagerId:1,Nooftasks:1,completed:1,Pstatus:true}
     component.Add();  
     expect(component).toBeTruthy(); 
    });

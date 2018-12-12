@@ -219,6 +219,10 @@ userconfig = {
      {
        this.Recordadded="Enter end date";
      }
+     else if ($('#txtstartdate').val()>=$('#txtenddate').val())
+        {      
+           this.Recordadded='End date should be greater than start date';
+        }
      else if($('#txtuser').val()=='')
      {
        this.Recordadded="Select User";
@@ -316,6 +320,10 @@ mdfLogin(data){
      {
        this.Recordadded="Enter end date";
      }
+     else if ($('#txtstartdate1').val()>=$('#txtenddate1').val())
+       {      
+          this.Recordadded='End date should be greater than start date';
+       }
      else if($('#txtuser').val()=='')
      {
        this.Recordadded="Select User";

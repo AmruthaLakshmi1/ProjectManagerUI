@@ -56,8 +56,8 @@ config = {
          this.st=this.checked;       
         if(this.st){   
           
-           $('#ptxtstartdate').prop("disabled",false);
-           $('#ptxtenddate').prop("disabled",false);
+          $('#ptxtstartdate').prop("disabled",false);
+          $('#ptxtenddate').prop("disabled",false);
           $('#ptxtstartdate').show();
           $('#ptxtstartdate1').hide();
           $('#ptxtenddate').show();
