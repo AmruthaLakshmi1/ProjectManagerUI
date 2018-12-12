@@ -8,5 +8,6 @@ export class Project {
     Nooftasks:number;
 	completed:number;
     Pstatus:boolean;
+    Manager:string;
     //selectedoption:any=[];
 }
