@@ -29,4 +29,16 @@ describe('ViewtaskComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  it('Edit a task', () => {   
+    component.Edit;  
+    expect(component).toBeTruthy(); 
+   });  
+   it('End a task', () => {   
+    component.EndTask;  
+    expect(component).toBeTruthy(); 
+   });     
+   it('Delete a task', () => {   
+    component.Delete;  
+    expect(component).toBeTruthy(); 
+   }); 
 });

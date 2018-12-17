@@ -38,4 +38,13 @@ describe('AddtaskComponent', () => {
     component.Add();  
     expect(component).toBeTruthy(); 
    });
+   it('Add Task component',()=>{
+    let task1=Task;
+    component.Add();
+    expect(component).toBeTruthy();
+   });
+   it('Update Task component',()=>{    
+    component.Update();
+    expect(component).toBeTruthy();
+   });         
 });

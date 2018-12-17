@@ -35,4 +35,16 @@ describe('AdduserComponent', () => {
     component.Add();  
     expect(component).toBeTruthy(); 
    });
+    it('Update a user', () => {   
+     component.Update();  
+     expect(component).toBeTruthy(); 
+    });  
+    it('Edit a user', () => {   
+      component.Edit;  
+      expect(component).toBeTruthy(); 
+     }); 
+     it('Delete a user', () => {   
+      component.Delete;  
+      expect(component).toBeTruthy(); 
+     }); 
 });
